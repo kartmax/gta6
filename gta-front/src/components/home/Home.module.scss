@@ -1,0 +1,24 @@
+.homeWrapper {
+   animation: slideForm 1.5s cubic-bezier(.75,.26,.29,.85);
+   max-width: 300px;
+   width: 100%;
+   min-height: 320px;
+   margin-inline: auto;
+   background-color: rgba($color: #ec8fd4, $alpha: .5);
+   border-radius: 12px;
+   padding: 20px;
+   display: flex;
+   align-items: center;
+}
+
+@keyframes slideForm {
+   from {
+      transform: translateY(-110%);
+      opacity: 0;
+   }
+   
+   to {
+      transform: translateY(0);
+      opacity: 1;
+   }
+}

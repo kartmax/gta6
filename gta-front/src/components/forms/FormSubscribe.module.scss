@@ -1,0 +1,43 @@
+.homeForm {
+   width: 100%;
+
+   h1 {
+      @apply text-3xl;
+      font-weight: 700;
+   }
+
+   h3 {
+      @apply text-2xl;
+   }
+
+   input {
+      @apply pl-4 pr-4 pt-2 pb-2;
+      width: 100%;
+      border-radius: 8px;
+      color: #333;
+      background-color: #fff;
+      outline: none;
+      transition: .25s background-color ease;
+
+      &:focus {
+         background-color: rgba($color: #fff, $alpha: .9);
+      }
+
+   }
+   .wrapInput:first-of-type{
+      margin-top: 10px;
+   }
+}
+
+.wrapInput {
+   position: relative;
+   padding-block: 10px 20px;
+}
+
+.errorInput {
+   position: absolute;
+   left: 5px;
+   bottom: 0;
+   font-size: 12px;
+   color: #fff;
+}

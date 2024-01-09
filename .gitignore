@@ -1,0 +1,16 @@
+/**/*.DS_Store
+/**/*.psd
+/**/Thumbs.db
+
+/.git/
+
+/**/node_modules/
+/**/package-lock.json
+
+**/build/
+
+/**/*.rar
+/**/*.zip
+
+/**/.idea/
+/**/.vscode/
